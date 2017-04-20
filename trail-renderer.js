@@ -11,7 +11,7 @@ var visualize = false;
 // Lazy global vars.
 var canvas, ctx;
 var ball;
-var dragging = false;
+var dragging = true;
 
 // A 2D point or vector.
 var Point = function(x, y) {
